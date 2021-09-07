@@ -194,6 +194,22 @@ var table = out.print();
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/bartlett-test`][@stdlib/stats/bartlett-test]: Bartlett’s test for equal variances.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -248,6 +264,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-fligner-test/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/stats/bartlett-test]: https://github.com/stdlib-js/stats-bartlett-test
+
+<!-- </related-links> -->
 
 </section>
 
