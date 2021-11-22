@@ -20,7 +20,7 @@ limitations under the License.
 
 # flignerTest
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Compute the Fligner-Killeen test for equal variances.
 
@@ -202,7 +202,7 @@ var table = out.print();
 
 ## See Also
 
--   [`@stdlib/stats/bartlett-test`][@stdlib/stats/bartlett-test]: Bartlett’s test for equal variances.
+-   <span class="package-name">[`@stdlib/stats/bartlett-test`][@stdlib/stats/bartlett-test]</span><span class="delimiter">: </span><span class="description">bartlett’s test for equal variances.</span>
 
 </section>
 
@@ -253,8 +253,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-fligner-test/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-fligner-test?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/stats-fligner-test.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/stats-fligner-test/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
