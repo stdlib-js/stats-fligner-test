@@ -1,0 +1,35 @@
+{
+  "name": "@stdlib/stats-fligner-test",
+  "version": "0.0.0",
+  "description": "Fligner-Killeen test for equal variances.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/stats-fligner-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "statistics",
+    "stats",
+    "mathematics",
+    "math",
+    "summary",
+    "test",
+    "hypothesis",
+    "variance",
+    "equal",
+    "fligner",
+    "killeen",
+    "homogeneity"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
