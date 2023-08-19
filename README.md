@@ -30,38 +30,30 @@ limitations under the License.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-fligner-test
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-flignerTest = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-fligner-test@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var flignerTest = require( 'path/to/vendor/umd/stats-fligner-test/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-fligner-test@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.flignerTest;
-})();
-</script>
+var flignerTest = require( '@stdlib/stats-fligner-test' );
 ```
 
 #### flignerTest( a\[,b,...,k]\[, opts] )
@@ -166,13 +158,8 @@ console.log( out.print() );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-fligner-test@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var flignerTest = require( '@stdlib/stats-fligner-test' );
 
 // Data from Hollander & Wolfe (1973), p. 116:
 var x = [ 2.9, 3.0, 2.5, 2.6, 3.2 ];
@@ -203,11 +190,6 @@ var table = out.print();
 
     Test Decision: Fail to reject null in favor of alternative at 5% significance level
 */
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -228,7 +210,7 @@ var table = out.print();
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/stats/bartlett-test`][@stdlib/stats/bartlett-test]</span><span class="delimiter">: </span><span class="description">bartlett’s test for equal variances.</span>
+-   <span class="package-name">[`@stdlib/stats-bartlett-test`][@stdlib/stats/bartlett-test]</span><span class="delimiter">: </span><span class="description">bartlett’s test for equal variances.</span>
 
 </section>
 
@@ -287,7 +269,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -305,7 +287,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/bartlett-test]: https://github.com/stdlib-js/stats-bartlett-test/tree/umd
+[@stdlib/stats/bartlett-test]: https://github.com/stdlib-js/stats-bartlett-test
 
 <!-- </related-links> -->
 
