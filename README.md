@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import flignerTest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-fligner-test@deno/mod.js';
+import flignerTest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-fligner-test@v0.2.1-deno/mod.js';
 ```
 
 #### flignerTest( a\[,b,...,k]\[, opts] )
@@ -154,7 +154,7 @@ console.log( out.print() );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import flignerTest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-fligner-test@deno/mod.js';
+import flignerTest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-fligner-test@v0.2.1-deno/mod.js';
 
 // Data from Hollander & Wolfe (1973), p. 116:
 var x = [ 2.9, 3.0, 2.5, 2.6, 3.2 ];
