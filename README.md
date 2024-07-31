@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import flignerTest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-fligner-test@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-fligner-test/tags). For example,
+
+```javascript
 import flignerTest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-fligner-test@v0.2.2-deno/mod.js';
 ```
 
@@ -154,7 +159,7 @@ console.log( out.print() );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import flignerTest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-fligner-test@v0.2.2-deno/mod.js';
+import flignerTest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-fligner-test@deno/mod.js';
 
 // Data from Hollander & Wolfe (1973), p. 116:
 var x = [ 2.9, 3.0, 2.5, 2.6, 3.2 ];
