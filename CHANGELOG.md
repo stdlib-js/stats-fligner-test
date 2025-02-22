@@ -2,6 +2,52 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2025-02-22)
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#5361](https://github.com/stdlib-js/stdlib/issues/5361)
+
+</section>
+
+<!-- /.issues -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`46a71fb`](https://github.com/stdlib-js/stdlib/commit/46a71fb2501d0192e9b1e915791d246ef2d088af) - **style:** remove trailing whitespace [(#5372)](https://github.com/stdlib-js/stdlib/pull/5372) _(by Abhishek Jain)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Abhishek Jain
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-29)

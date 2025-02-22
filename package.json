@@ -53,7 +53,7 @@
     "@stdlib/stats-base-dists-normal-quantile": "^0.2.2",
     "@stdlib/stats-ranks": "^0.2.2",
     "@stdlib/string-format": "^0.2.2",
-    "@stdlib/types": "^0.4.1",
+    "@stdlib/types": "^0.4.3",
     "@stdlib/utils-define-read-only-property": "^0.2.2",
     "@stdlib/utils-group": "^0.2.2",
     "@stdlib/utils-index-of": "^0.2.2",

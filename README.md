@@ -71,7 +71,7 @@ var flignerTest = require( '@stdlib/stats-fligner-test' );
 
 #### flignerTest( a\[,b,...,k]\[, opts] )
 
-For input arrays `a`, `b`, ... holding numeric observations, this function calculates the Fligner-Killeen test, which tests the null hypothesis that the variances in all `k` groups are the same. 
+For input arrays `a`, `b`, ... holding numeric observations, this function calculates the Fligner-Killeen test, which tests the null hypothesis that the variances in all `k` groups are the same.
 
 ```javascript
 // Data from Hollander & Wolfe (1973), p. 116:
@@ -255,7 +255,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
