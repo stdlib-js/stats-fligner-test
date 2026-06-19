@@ -1,4 +1,4 @@
-"use strict";var m=function(i,a){return function(){return a||i((a={exports:{}}).exports,a),a.exports}};var D=m(function(mr,C){
+"use strict";var m=function(i,a){return function(){try{return a||i((a={exports:{}}).exports,a),a.exports}catch(n){throw (a=0, n)}};};var D=m(function(mr,C){
 var J=require('@stdlib/math-base-special-floor/dist');function L(i,a){return i-a}function Q(i){var a=i.length,n,e,t;if(!a)return null;for(e=[],t=0;t<a;t++)e.push(i[t]);return e.sort(L),n=J(a/2),a%2?e[n]:(e[n-1]+e[n])/2}C.exports=Q
 });var N=m(function(qr,M){
 var U=require('@stdlib/assert-is-array/dist'),W=require('@stdlib/assert-is-number/dist').isPrimitive,X=require('@stdlib/assert-is-plain-object/dist'),Y=require('@stdlib/assert-is-nan/dist'),K=require('@stdlib/assert-has-own-property/dist'),V=require('@stdlib/error-tools-fmtprodmsg/dist');function Z(i,a){return X(a)?K(a,"alpha")&&(i.alpha=a.alpha,!W(i.alpha)||Y(i.alpha))?new TypeError(V('1H38P',"alpha",i.alpha)):K(a,"groups")&&(i.groups=a.groups,!U(i.groups))?new TypeError(V('1H38Z',"groups",i.groups)):null:new TypeError(V('1H32V',a));}M.exports=Z
