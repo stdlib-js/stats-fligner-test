@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-11)
+## Unreleased (2026-09-03)
 
 <section class="issues">
 
@@ -24,6 +24,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`92c5639`](https://github.com/stdlib-js/stdlib/commit/92c56392f9b74d38992720fb8a1f954c8ff7b074) - **test:** migrate `stats/fligner-test` to ULP-based assertions [(#14908)](https://github.com/stdlib-js/stdlib/pull/14908) _(by Athan Reines)_
 -   [`e88fed7`](https://github.com/stdlib-js/stdlib/commit/e88fed78fbf6aaf1043cb4489e3af510007b5dd0) - **bench:** refactor to use string interpolation in `@stdlib/stats` [(#11396)](https:-/github.com/stdlib-js/stdlib/pull/11396) _(by Karan Anand)_
 -   [`bd60a20`](https://github.com/stdlib-js/stdlib/commit/bd60a209ca4b0989663edbbc591bc7da80294827) - **build:** update R version to 4.2.0 in lint workflows [(#11262)](https://github.com/stdlib-js/stdlib/pull/11262) _(by Mara Averick)_
 -   [`c76f2eb`](https://github.com/stdlib-js/stdlib/commit/c76f2eb9f4a415b2039a0624c62f1b4adb162508) - **chore:** fix JavaScript lint errors [(#10664)](https://github.com/stdlib-js/stdlib/pull/10664) _(by Partha Das)_
@@ -38,8 +39,9 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Karan Anand
 -   Mara Averick
 -   Partha Das
